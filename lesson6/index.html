@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>requireJs - 3</title>
+    <link rel="stylesheet" href="css/built.css">
+	<script src="require.js" data-main="built"></script>
+	<style type="text/css">
+            p {
+                width: 200px;
+                background: gray;
+            }
+    </style>
+</head>
+<body>
+	 <p>p1</p><p>p2</p><p>p3</p><p>p4</p><p>p5</p>
+     <div id="aaa"></div>
+     <div class="main">main</div>
+     <div class="nav">mav</div>
+     <div class="form">form</div>
+     <div class="grid">grid</div>
+</body>
+<!-- CSS打包 -->
+<!-- node r.js -o cssIn=css/main.css out=css/built.css -->
+<!-- 合并并压缩CSS代码 -->
+<!-- node r.js -o cssIn=css/main.css out=css/built.css optimizeCss=standard -->
+<!-- JS打包 -->
+<!-- node r.js -o baseUrl=js name=main out=built.js paths.jquery=empty: -->
+</html>

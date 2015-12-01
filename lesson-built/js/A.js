@@ -1,0 +1,1 @@
+define([],function(){var e=$("#aaa");return{name:"mawen",age:18,obj:e}});

@@ -1,0 +1,1 @@
+define([],function(){function r(t){return t[n]||(t[n]=++e)}var e=0,t={},n="_ guid _";return{set:function(e,n,i){if(!e)throw new Error("setting failed, invalid element");var s=r(e),o=t[s]||(t[s]={});return n&&(o[n]=i),o}}});

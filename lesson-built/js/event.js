@@ -1,0 +1,1 @@
+define(["cache"],function(e){var t=window.document,n=!!t.addEventListener,r="snandy"+(""+Math.random()).replace(/\D/g,""),i,s=n?function(e,t,n){e.addEventListener(t,n,!1)}:function(e,t,n){e.attachEvent("on"+t,n)},o=n?function(e,t,n){e.removeEventListener(t,n,!1)}:function(e,t,n){e.detachEvent("on"+t,n)};return{bind:s,unbind:o,trigger:i}});
